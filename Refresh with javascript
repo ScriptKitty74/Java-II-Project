@@ -1,0 +1,15 @@
+public class RefreshAttempts {
+	<script type="text/javascript">
+	  setTimeout(function(){
+	    location = ''
+	  },15)
+	</script>
+
+
+//<script type="text/javascript">
+//	setTimeout(funtion(){
+//		window.location.href = window.location.href;
+//		
+//	},15)
+//	</script>
+}
