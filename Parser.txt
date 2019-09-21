@@ -1,0 +1,6 @@
+if (oneline.contentEquals("<<<placeHolder2>>>"))
+{
+	html = eachOne.substring(eachOne.indexOf("<<<placeHolder2>>>=") + 1, eachOne.indexOf("<<<placeHolder2>>>, "));
+	OracleWrapper db = new OracleWrapper();
+	db.prepareStatement("INSERT NAME FROM SERVICE WHERE SORTCATEGORY = 10",placeHolder, eachOne.getPlaceHolder());
+}
